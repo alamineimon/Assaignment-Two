@@ -1,0 +1,699 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*--------------------------------------------------------------
+For Desktop Devies
+----------------------------------------------------------------*/
+    .header-section{
+        padding: 2rem 1rem;
+    }
+    .header{
+        height: 30rem;
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 1.2rem;
+        background-color: black;
+        display: flex;
+    }
+    .header-text{
+        color: white;
+        width: 50%;
+        margin-top: 1rem;
+        padding: 2rem 0 2rem 3rem;
+    }
+    .header-text h1{
+        margin-top: 30px;
+        font-size: 2.6rem;
+    }
+    .header-text p{
+        margin: 1rem 0 ;
+        font-size: 1rem;
+    }
+    .header-text button{
+        padding: .8rem 2.2rem;
+        border-radius: .4rem;
+        color: white;
+        margin-top: 1rem;
+        background-color: red;
+        transition: 1s;
+    }
+    .header-text button:hover{
+        background-color: dodgerblue;
+    }
+    .fa-circle-right{
+        color: white;
+        margin-left: .3rem;
+    }
+    .header-img{
+        width: 50%;
+        height: 100%;
+    
+    }
+    .header-img img{
+        width:100%;
+        height: 100%;
+    }
+    .Deccribtion{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        padding: 3rem 0 ;
+    }
+    .Deccribtion-top{
+        width: 20%;
+        padding:  1.2rem;
+    }
+    .buttn a{
+        color: black;
+        text-decoration: none;
+        transition: 2s;
+    }
+    .buttn a :hover{
+        background-color: chartreuse;
+        color: white;
+    }
+    .buttn button:hover{
+        color: white;
+        background-color: dodgerblue;
+    }
+    #third-btn:hover{
+        color: white;
+        background-color: dodgerblue;
+    }
+    .buttn{
+        background-color: black;
+        height: 15rem;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .buttn button{
+        font-size: 1rem;
+        height: 3rem ;
+        width: 80%;
+        margin: .5rem 0 ;
+        color: black;
+        border-radius: 0.5rem;
+        background-color: white;
+        transition: 1s;
+    }
+    #third-btn{
+        background-color: red;
+        color: white;
+    }
+
+    .Deccribtion-bottom{
+        width: 80%;
+        display: grid;
+        grid-template-columns:repeat(3, 1fr);
+        gap:  1rem;
+    }
+    .Deccribtion{
+        display: flex;
+        flex-direction: column; 
+    }
+    .Deccribtion-1{
+        display: flex;
+    }
+    .Deccribtion-bottom{
+        width: 80%;
+        margin: 16px 0;
+        display: grid;
+        grid-template-columns:repeat(3, 1fr);
+        gap:  16px;
+    }
+    .Decoration-btn{
+        height: 100px;
+        margin-bottom: -2rem;
+        visibility: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Decoration-btn button{
+        height: 3rem ;
+        width: 8rem;
+        border: none;
+        color: white;
+        font-size: 1.2rem;
+        border-radius: 0.2rem;
+        background-color: red;
+    }
+
+
+
+
+
+
+
+
+
+
+    .item{
+        border-radius: 1rem;
+        border: 1px solid rgb(71, 73, 72);
+        display: flex;
+        flex-direction: column;
+    }
+    .item-top{
+        padding: 2.5rem 0.2rem ;
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .item-top img{
+        height: 80%;
+        width: 40%;
+    }
+    .item-top h1{
+        margin: 1.5rem 0.5rem;
+    }
+    .item-bottom{
+        padding: 2rem 0.2rem ;
+        height: 50%;
+        width: 100%;
+        margin-top: -2.5rem;
+
+        display: flex;
+        flex-direction: column;
+    }
+    .item-bottom h1{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .item-bottom h2{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+    .footer{
+        height: 25em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+    }
+    footer{
+        width: 80%;
+        height: 10rem;
+        text-align: center;
+    }
+    footer h1{
+        text-align: center;
+        color: white;
+        font-size: 2.5rem;
+        padding: 2rem 0 1.5rem 0;
+        border-bottom: 1px solid white;
+        margin-bottom: .8rem;
+    }
+    footer li a{
+        padding: 0 1rem;
+        color: white;
+        text-decoration: none;
+    }
+    .fav-icn  {
+        display: flex;
+        margin-top: 80px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        font-size: 1.8rem;
+        color: white;
+    }
+    .fav-icn  a{
+        margin: 0 25px;
+    }
+    .fa-facebook-square{
+        color: white;
+    }   
+    .fa-twitter-square{
+        color: white;
+    }   
+    .fa-instagram-square{
+        color: white;
+    }
+/*--------------------------------------------------------------
+                       For Tablet Devies
+----------------------------------------------------------------*/
+    
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+    
+    .header-section{
+        padding: 2rem 1rem;
+    }
+    .header{
+        height: 20rem;
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 1.2rem;
+        background-color: black;
+        display: flex;
+        flex-direction:row;
+    }
+    .header-text{
+        color: white;
+        width: 50%;
+        height: 100%;
+        padding: 1.2rem;
+    }
+    .header-text h1{
+         width: 100%;
+         margin-top: 20px;
+        text-align: left;
+        font-size: 1.5rem;
+    }
+    .header-text p{
+        text-align: left;
+        margin: 1rem 0 ;
+        width: 100%;
+        font-size: .7rem;
+    }
+    .header-text button{
+        padding: .5rem 2rem;
+        border-radius: .4rem;
+        color: white;
+        margin-top: 1rem;
+        background-color: red;
+        transition: 1s;
+    }
+    .header-text button:hover{
+        background-color: dodgerblue;
+    }
+    .fa-circle-right{
+        color: white;
+        margin-left: .6rem;
+    }
+    .header-img{
+        width: 50%;
+        height: 100%;
+    }
+    .header-img img{
+        width:100%;
+        height: 100%;
+    }
+
+    /* -----------------header End */
+
+    .Decoration-btn{
+        height: 100px;
+        margin-bottom: -2rem;
+        visibility: visible;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Decoration-btn button{
+        height: 3rem ;
+        width: 8rem;
+        border: none;
+        color: white;
+        font-size: 1.2rem;
+        border-radius: 0.5rem;
+        background-color: red;
+    }
+    .Deccribtion-top{
+        width: 80%;
+        display: flex;
+        margin-top: -120px;
+        margin-left: 80px;
+        flex-direction: row;
+        padding:  1.2rem;
+    }
+    .buttn{
+        width:100%;
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .buttn a{
+        color: black;
+        text-decoration: none;
+        transition: 2s;
+    }
+    .buttn a :hover{
+        background-color: chartreuse;
+        color: white;
+    }
+    .buttn button:hover{
+        color: white;
+        background-color: dodgerblue;
+    }
+    #third-btn:hover{
+        color: white;
+        background-color: dodgerblue;
+    }
+    .buttn button{
+        font-size: 1rem;
+        height: 3rem ;
+        width: 80%;
+        margin: .5rem  1rem ;
+        color: black;
+        border-radius: 0.5rem;
+        background-color: white;
+        transition: 1s;
+    }
+    #third-btn{
+        background-color: red;
+        color: white;
+    }
+
+
+
+
+
+
+
+
+
+    .item{
+        border-radius: 1rem;
+        border: 1px solid rgb(71, 73, 72);
+        display: flex;
+        flex-direction: column;
+    }
+    .item-top{
+        padding: 2.5rem 0.2rem ;
+        height: 50%;
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+    }
+    .item-top img{
+        height: 80%;
+        width: 40%;
+    }
+    .item-top h1{
+        margin: 1.5rem 0.5rem;
+    }
+    .item-bottom{
+        padding: 2rem 0.2rem ;
+        height: 50%;
+        width: 100%;
+        margin-top: -2.5rem;
+
+        display: flex;
+        flex-direction: column;
+    }
+    .item-bottom h1{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .item-bottom h2{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .Deccribtion-bottom{
+        width: 80%;
+        display: grid;
+        grid-template-columns:repeat(3, 1fr);
+        gap:  1rem;
+    }
+    .Deccribtion-1{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .Deccribtion-bottom{
+        width: 100%;
+        margin-top:-60px;
+        margin-left: 50px;
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+        gap:  16px;
+    }
+    /* -----------------Decribtion End */
+}
+
+
+/*--------------------------------------------------------------
+For Mobile Devies
+----------------------------------------------------------------*/
+
+@media only screen and (max-width: 768px) {
+
+    .header-section{
+        padding: 2rem 1rem;
+    }
+    .header{
+        height: 50rem;
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 1.2rem;
+        background-color: black;
+        display: flex;
+        flex-direction:column;
+    }
+    .header-text{
+        margin-left:40px;
+        color: white;
+        width: 80%;
+        height: 50%;
+        padding: 2rem;
+
+    }
+    .header-text h1{
+         width: 90%;
+         margin-left:30px;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .header-text p{
+        text-align: center;
+        margin: 1rem 0 ;
+        width: 100%;
+        font-size: .9rem;
+    }
+    .header-text button{
+        padding: .8rem 2.2rem;
+        border-radius: .4rem;
+        color: white;
+        margin-top: 1rem;
+        margin-left: 180px;
+        background-color: red;
+        transition: 1s;
+    }
+    .header-text button:hover{
+        background-color: dodgerblue;
+    }
+    .fa-circle-right{
+        color: white;
+        margin-left: .3rem;
+    }
+    .header-img{
+        width: 50%;
+        height: 100%;
+    
+    }
+    .header-img img{
+        width:100%;
+        height: 100%;
+        margin-left:180px;
+    }
+    /* -----------------Header End */
+
+    .Deccribtion-1{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    .Deccribtion-top{
+        width: 80%;
+        
+        padding:  1.2rem 2rem;
+    }
+    .buttn a{
+        color: black;
+        text-decoration: none;
+        transition: 2s;
+    }
+    .buttn a :hover{
+        background-color: chartreuse;
+        color: white;
+    }
+    .buttn button:hover{
+        color: white;
+        background-color: dodgerblue;
+    }
+    #third-btn:hover{
+        color: white;
+        background-color: dodgerblue;
+    }
+    .buttn{
+        height: 15rem;
+        border-radius: 1rem;
+        display: flex;
+        background-color: transparent;
+        margin: 0 0 20px 50px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .buttn button{
+        transition: 1s;
+        font-size: 1rem;
+        height: 3rem ;
+        width: 60%;
+        margin: .5rem 0 ;
+        color: black;
+        border-radius: 0.5rem;
+        background-color: white;
+    }
+    .buttn button:hover{
+        border:1px solid tomato;
+    }
+    #third-btn{
+        background-color: red;
+        color: white;
+    }
+
+
+
+
+    .item-top{
+        padding: 2.5rem 1rem ;
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .item-top img{
+        height: 80%;
+        width: 40%;
+    }
+    .item-top h1{
+        margin: 1.5rem 0.5rem;
+ 
+    }
+    .item-bottom h2{
+        text-align: center;
+        margin-left: rem;
+    }
+    .item-bottom{
+        padding: 2rem 0.2rem ;
+        height: 50%;
+        width: 90%;
+        /* margin-top: -2.5rem; */
+
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .Deccribtion-bottom{
+        width: 90%;
+        display: grid;
+        margin-left:30px;
+        grid-template-columns:repeat(1, 1fr);
+    }
+    /* -----------------Describtion End */
+    .footer{
+        height: 30rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+    }
+    footer{
+        width: 100%;
+        display:flex;
+        flex-direction:column;
+        height: 20rem;
+        margin-left:120px;
+        text-align: center;
+    }
+    footer h1{
+        text-align: center;
+        color: white;
+        font-size: 2.5rem;
+        padding: 2rem 0 1.5rem 0;
+        width:80%;
+        border-bottom: 1px solid white;
+        margin-bottom: .8rem;
+    }
+    footer ul li{
+        display: flex;
+        padding: 30px ;
+        margin-left: -150px;
+        flex-direction: column;
+    }
+    footer li a{
+        padding-bottom: 1.2rem;
+        color: white;
+        text-decoration: none;
+    }
+    .fav-icn  {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        font-size: 1.5rem;
+        margin-top:-20px;
+        margin-left:-150px;
+        color: white;
+    }
+    .fav-icn  a{
+        margin: 0 25px;
+    }
+    
+    .fa-facebook-square{
+        color: white;
+    }   
+    .fa-twitter-square{
+        color: white;
+    }   
+    .fa-instagram-square{
+        color: white;
+    }
+    /* -----------------Footer End */
+}
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
